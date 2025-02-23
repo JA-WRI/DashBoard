@@ -13,8 +13,8 @@ export default function TopBar() {
             </div>
             <div className="flex items-center gap-4">
                 <div className="flex items-center gap-2">
-                    <button className="px-3 py-1 border rounded-md text-sm">Source code</button>
-                    <button className="px-3 py-1 border rounded-md text-sm">Sponsor</button>
+                    <button className="px-3 py-1 border rounded-md text-sm">Something</button>
+                    <button className="px-3 py-1 border rounded-md text-sm">Else</button>
                 </div>
                 <div className="w-8 h-8 bg-gray-200 rounded-full"></div>
             </div>
