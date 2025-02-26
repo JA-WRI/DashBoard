@@ -1,18 +1,20 @@
-from flask import Flask, jsonify
+from flask import Flask, send_file
+import os
 
 app = Flask(__name__)
 
-# Example API route
-@app.route('/api/data', methods=['GET'])
-def get_data():
-    return jsonify({"message": "Hello from the Python backend!"})
-
-# Serve the frontend (if needed)
-@app.route('/', defaults={'path': ''})
-@app.route('/<path:path>')
-def serve_frontend(path):
-    # You can serve your frontend files (e.g., HTML, JS, CSS) here
-    return "Frontend will be served here."
+# Serve files dynamically
+@app.route('/download/<filename>')
+def download_file(filename):
+    # Path to the file
+    file_path = os.path.join('dynamic_files', filename)
+    
+    # Check if the file exists
+    if not os.path.exists(file_path):
+        return "File not found", 404
+    
+    # Send the file to the client
+    return send_file(file_path, as_attachment=True)
 
 if __name__ == '__main__':
     app.run(debug=True, port=3000)
