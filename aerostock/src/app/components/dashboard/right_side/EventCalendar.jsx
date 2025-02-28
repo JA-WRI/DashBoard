@@ -3,7 +3,7 @@ import 'react-calendar/dist/Calendar.css';
 import Calendar from 'react-calendar';
 import React, { useState } from 'react'; // Import React and useState
 import 'react-calendar/dist/Calendar.css'
-import "./calender.css"
+
 //Temporary
 const events = [
   {
