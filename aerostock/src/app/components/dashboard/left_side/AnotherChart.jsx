@@ -67,7 +67,7 @@ const AnotherChart = () => {
         <div className='bg-white rounded-lg p-4 h-full'>
             <div className='flex justify-between items-center'>
                 <h1 className='text-lg font-seminold pb-6'>Carbon Emissions</h1>
-                <Image src="/three_dots.jpg" alt="three dots" width={20} height={10} />
+                <Image  class="mix-blend-multiply"src="/three_dots.jpg" alt="three dots" width={20} height={10} />
             </div>
             <ResponsiveContainer width="100%" height="90%">
                 <AreaChart

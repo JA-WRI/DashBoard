@@ -987,7 +987,9 @@ export default function MapChart() {
           }}
         >
           <p>{selectedCountry}</p>
-          <button onClick={closePopup} className="mt-2 px-2 py-1 bg-red-500 text-white rounded">
+          <button className="mt-2 px-2 py-1 bg-sky-900 text-white rounded">Storage unite 1 </button><br></br>
+          <button className="mt-2 px-2 py-1 bg-sky-900 text-white rounded">Storage unite 2 </button><br></br>
+          <button onClick={closePopup} className="mt-2 px-2 py-1 bg-blue-200 text-white rounded">
             Close
           </button>
         </div>

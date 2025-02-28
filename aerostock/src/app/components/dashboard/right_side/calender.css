@@ -1,0 +1,19 @@
+/* Change the background color of the current day */
+.react-calendar__tile--now {
+    background-color:#bae6fd !important; /* Yellow */
+    color: black !important;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  /* Change the background color of the selected date */
+.react-calendar__tile--active {
+    background-color: #00394f !important; /* Sky-600 (Tailwind) */
+    color: white !important;
+    border-radius: 8px;
+  }
+  
+  /* Optional: Change hover effect for better visibility */
+  .react-calendar__tile--active:hover {
+    background-color: #bae6fd !important; /* Sky-700 */
+  }
+  

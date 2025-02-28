@@ -7,7 +7,7 @@ export default function DashboardHeader() {
         </div>
         <div className="flex gap-3">
           <button className="px-3 py-1 border rounded-md text-sm">Do somthing</button>
-          <button className="px-3 py-1 bg-blue-500 text-white rounded-md text-sm">
+          <button className="px-3 py-1 bg-sky-900 text-white rounded-md text-sm">
             Do something
           </button>
         </div>

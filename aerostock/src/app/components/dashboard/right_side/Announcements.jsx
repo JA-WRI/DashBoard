@@ -8,7 +8,7 @@ const Announcements = () => {
                 <span className='text-xs text-gray-400'>View All</span>
             </div>
             <div className='flex flex-col gap-4 mt-4'>
-                <div className='bg-blue-300 rounded-md p-4'>
+                <div className='bg-sky-200 rounded-md p-4'>
                     <div className='flex items-center justify-between'>
                         <h2 className='font-medium'>This is a mock announcement</h2>
                         <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>
@@ -19,7 +19,7 @@ const Announcements = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-4 mt-4'>
-                <div className='bg-yellow-300 rounded-md p-4'>
+                <div className='bg-yellow-200 rounded-md p-4'>
                     <div className='flex items-center justify-between'>
                         <h2 className='font-medium'>This is a mock announcement</h2>
                         <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>
@@ -30,7 +30,7 @@ const Announcements = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-4 mt-4'>
-                <div className='bg-blue-300 rounded-md p-4'>
+                <div className='bg-sky-200 rounded-md p-4'>
                     <div className='flex items-center justify-between'>
                         <h2 className='font-medium'>This is a mock announcement</h2>
                         <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>

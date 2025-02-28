@@ -33,7 +33,7 @@ const countChart = () => {
             {/*tite*/}
             <div className='flex justify-between items-center'>
                 <h1 className='text-lg font-seminold'>Number Planes</h1>
-                <Image src="/three_dots.jpg" alt="three dots" width={20} height={10} />
+                <Image class="mix-blend-multiply" src="/three_dots.jpg" alt="three dots" width={20} height={10} />
             </div>
             {/*Chart*/}
             <div className='relative w-full h-[75%]'>
@@ -46,17 +46,17 @@ const countChart = () => {
                         />
                     </RadialBarChart>
                 </ResponsiveContainer>
-                <Image src='/airplane-icon.jpg' alt='airplane icon' width={100} height={100} className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2'/>
+                <Image src='/airplane-icon.jpg' alt='airplane icon' width={100} height={100} className='absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 mix-blend-multiply'/>
             </div>
             {/*Bottom*/}
             <div className='flex justify-center gap-16'>
                 <div className='flex flex-col gap-1' >
-                    <div className='w-5 h-5 bg-red-300 rounded-full'></div>
+                    <div className='w-5 h-5 bg-sky-200 rounded-full'></div>
                     <h1 className='font-bold'>2837</h1>
                     <h2 className='text-xs text-grey-300'>Planes (55%)</h2>
                 </div>
                 <div className='flex flex-col gap-1' >
-                    <div className='w-5 h-5 bg-yellow-300 rounded-full'></div>
+                    <div className='w-5 h-5 bg-yellow-200 rounded-full'></div>
                     <h1 className='font-bold'>2837</h1>
                     <h2 className='text-xs text-grey-300'>Planes OUt(12%)</h2>
                 </div>
