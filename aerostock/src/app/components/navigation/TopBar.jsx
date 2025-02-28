@@ -9,12 +9,13 @@ export default function TopBar() {
                     alt="Bombardier logo"
                     width={200}
                     height={200}
+                    className="filter invert brightness-200"
                 />
             </div>
             <div className="flex items-center gap-4">
                 <div className="flex items-center gap-2">
-                    <button className="px-3 py-1 border rounded-md text-sm">Something</button>
-                    <button className="px-3 py-1 border rounded-md text-sm">Else</button>
+                    <button className="px-3 py-1 border rounded-md text-white">Something</button>
+                    <button className="px-3 py-1 border rounded-md text-white">Else</button>
                 </div>
                 <div className="w-8 h-8 bg-gray-200 rounded-full"></div>
             </div>

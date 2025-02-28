@@ -19,9 +19,9 @@ const Announcements = () => {
                 </div>
             </div>
             <div className='flex flex-col gap-4 mt-4'>
-                <div className='bg-yellow-200 rounded-md p-4'>
+                <div className='bg-sky-900 rounded-md p-4'>
                     <div className='flex items-center justify-between'>
-                        <h2 className='font-medium'>This is a mock announcement</h2>
+                        <h2 className='text-white font-medium'>This is a mock announcement</h2>
                         <span className='text-xs text-gray-400 bg-white rounded-md px-1 py-1'>
                             date
                         </span>

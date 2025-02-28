@@ -51,7 +51,7 @@
 import 'react-calendar/dist/Calendar.css';
 import Calendar from 'react-calendar';
 import React, { useState, useEffect } from 'react'; // Import useEffect for fetching data
-
+import "./calender.css";
 const EventCalendar = () => {
     const [value, onChange] = useState(new Date());
     const [events, setEvents] = useState([]); // State to store fetched events
@@ -140,7 +140,7 @@ const EventCalendar = () => {
                     />
                     <button
                         type='submit'
-                        className='bg-purple-500 text-white p-2 rounded-md hover:bg-purple-600'
+                        className='bg-sky-900 text-white p-2 rounded-md hover:bg-yellow-300'
                     >
                         Add Event
                     </button>
