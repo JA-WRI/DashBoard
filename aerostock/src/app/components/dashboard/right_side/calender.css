@@ -14,6 +14,6 @@
   
   /* Optional: Change hover effect for better visibility */
   .react-calendar__tile--active:hover {
-    background-color: #fde047 !important; /* Sky-700 */
+    background-color: #bae6fd !important; /* Sky-700 */
   }
   

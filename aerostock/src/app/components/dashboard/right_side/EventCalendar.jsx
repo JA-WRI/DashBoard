@@ -140,7 +140,7 @@ const EventCalendar = () => {
                     />
                     <button
                         type='submit'
-                        className='bg-sky-900 text-white p-2 rounded-md hover:bg-yellow-300'
+                        className='bg-sky-900 text-white p-2 rounded-md hover:bg-gray-300'
                     >
                         Add Event
                     </button>
